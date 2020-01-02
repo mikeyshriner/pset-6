@@ -5,7 +5,7 @@ It's time to put your skills to the test. This problem set focuses on programmin
 ## Getting Started
 
 To get started, create a [GitHub](https://github.com/) repository to store your code. When you're finished, clone my skeleton to get all of the starter code and instructions. Setup a remote to push your code to your repository instead of mine.
-
+ 
 ### Setup
 
 1. Login to your GitHub account and create a new repository named `pset-6`.
@@ -92,4 +92,3 @@ If you submit your problem set at midnight (i.e., January 6, 2020, at 12:00am), 
 * Your code must adhere to the course style guidelines.
 
 Happy coding!
-
