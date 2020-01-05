@@ -10,3 +10,8 @@ h1 {
 #h1 {
   color: white;
 }
+
+.center1 {
+  text-align: center;
+  line-height: 250%;
+}
