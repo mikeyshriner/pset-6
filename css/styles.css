@@ -23,6 +23,7 @@ body {
     margin-top: 18px;
     border-spacing: 10px;
     color: white;
+    align-items: center;
 }
 
 #textbox {
@@ -49,4 +50,60 @@ body {
     width: 90%;
     font-family: sans-serif;
     font-size: 20px;
+}
+
+.text {
+    text-indent: 10px;
+    font-size: 20px;
+    border: 2px solid;
+}
+
+.check {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    height: 25px;
+    width: 25px
+}
+
+.remove-button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    height: 25px;
+    width: 25px;
+}
+
+.input-table {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.priority-button, .completed-button, .remove-button {
+    width: 40px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid;
+}
+
+
+.priority-button {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 25px;
+}
+
+table {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }

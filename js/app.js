@@ -161,13 +161,13 @@ const createItem = function() {
         elements[x].append(items[x].htmlDone);
 
         items[x].htmlCheck = document.createElement("img");
-        items[x].htmlCheck.src = "images/check.png";
+        items[x].htmlCheck.src = "images/greencheck.png";
         items[x].htmlCheck.setAttribute("class", "check");
         done[x].append(items[x].htmlCheck);
 
         items[x].htmlRemove = document.createElement("img");
+        items[x].htmlRemove.src = "images/redx.png";
         items[x].htmlRemove.setAttribute("class", "remove-button");
-        items[x].htmlRemove.src = "images/x.png";
         elements[x].append(items[x].htmlRemove);
     }
     document.getElementById("textbox").value = "";
