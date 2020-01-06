@@ -1,8 +1,3 @@
-* {
-  margin: 20;
-  padding: 20;
-
-}
 
 h1 {
   font-family: sans-serif;
@@ -23,7 +18,6 @@ body {
     margin-top: 18px;
     border-spacing: 10px;
     color: white;
-    align-items: center;
 }
 
 #textbox {
@@ -74,8 +68,6 @@ body {
     margin-right: auto;
     margin-top: 5px;
     margin-bottom: auto;
-    height: 25px;
-    width: 25px;
 }
 
 .input-table {
@@ -88,7 +80,7 @@ body {
     height: 40px;
 }
 
-.priority-button, .completed-button, .remove-button {
+.priority-button, .remove-button, .completed-button  {
     width: 40px;
     text-align: center;
     background-color: black;
