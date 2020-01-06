@@ -150,7 +150,7 @@ const createItem = function() {
         items[x].htmlPriority.setAttribute("class", "priority-button");
         items[x].htmlPriority.innerHTML = "!";
         elements[x].append(items[x].htmlPriority);
-
+ 
         items[x].htmlText = document.createElement("td");
         items[x].htmlText.innerHTML = items[x].task;
         items[x].htmlText.setAttribute("class", "text");
