@@ -42,7 +42,7 @@ const prioritizeItem = function() {
             }
             else if (items[i].prioritized) {
                 const elementToPrioritize = elements[i];
-                priority[i].style.color = "black";
+                priority[i].style.color = "white";
                 elements[elements.length - 1].after(elementToPrioritize);
                 items[i].prioritized = false;
 
@@ -75,7 +75,7 @@ const markAsComplete = function() {
             }
             else if (items[i].completed) {
                 text[i].style.setProperty("text-decoration", "none");
-                text[i].style.color = "black";
+                text[i].style.color = "white";
                 items[i].completed = false;
             }
         };
